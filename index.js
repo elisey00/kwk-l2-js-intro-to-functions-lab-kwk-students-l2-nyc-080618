@@ -12,8 +12,8 @@ function discountTickets(oldPrice) {
 }
 
 function tweetReply(name){
-  var tweet= "Hey" + "name" + ", thanks so much for the support! I really appreciate it!";
+  var tweet= "Hey" + name + ", thanks so much for the support! I really appreciate it!";
   return tweet;
   
 }
-tweetReply("Bruno Mars");
+tweetReply(Elise);
