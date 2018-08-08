@@ -16,4 +16,4 @@ function tweetReply(name){
   return tweet;
   
 }
-tweetReply(Elise);
+tweetReply("Bruno Mars");
