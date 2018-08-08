@@ -7,7 +7,14 @@ function getUKTime(){
 getUKTime();
 
 function discountTickets(oldPrice) {
-  var newPrice= oldPrice * 0.2;
+  var newPrice= oldPrice * 0.8;
   return newPrice;
 }
 discountTickets();
+
+function tweetReply(name){
+  var tweet= "Hey" + name + ",thanks so much for the support! I appreciate it!"
+  return tweet;
+  
+}
+tweetReply(Elise);
