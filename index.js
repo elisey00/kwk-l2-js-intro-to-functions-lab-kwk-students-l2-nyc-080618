@@ -10,3 +10,4 @@ function discountTickets(oldPrice) {
   var newPrice= oldPrice *0.8
   return newPrice;
 }
+discountTickets(100);
